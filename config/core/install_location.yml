@@ -1,0 +1,10 @@
+# Shotgun Pipeline Toolkit configuration file
+# This file was automatically created by setup_project
+# This file reflects the paths in the primary pipeline
+# configuration defined for this project.
+
+Windows: 'z:\\film_template'
+Darwin: '/home/mjun/workspace/film_template'
+Linux: '/home/mjun/workspace/film_template'
+
+# End of file.
