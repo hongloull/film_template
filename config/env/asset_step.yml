@@ -519,6 +519,11 @@ engines:
         template_publish_area: asset_publish_area_maya
         template_work: maya_asset_work
         template_work_area: asset_work_area_maya
+      tk-multi-shotgunpanel:
+        location:
+          version: v1.2.13
+          type: app_store
+          name: tk-multi-shotgunpanel
     compatibility_dialog_min_version: 2015
     debug_logging: false
     location:
