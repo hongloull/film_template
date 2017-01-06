@@ -113,8 +113,11 @@ launch_mari:
 launch_maya:
   defer_keyword: ''
   engine: tk-maya
-  extra: {}
-  hook_app_launch: default
+  extra:
+    rez_packages:
+      - vermaya
+      - maya
+  hook_app_launch: rez_app_launch
   hook_before_app_launch: default
   icon: '{target_engine}/icon_256.png'
   linux_args: ''
